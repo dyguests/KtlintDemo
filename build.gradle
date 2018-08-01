@@ -1,6 +1,6 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
-apply plugin: "java"
+//apply plugin: "java"
 
 buildscript {
     ext.kotlin_version = '1.2.31'
@@ -9,7 +9,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath 'com.android.tools.build:gradle:3.1.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 
         // NOTE: Do not place your application dependencies here; they belong
@@ -24,9 +24,9 @@ allprojects {
     }
 }
 
-//task clean(type: Delete) {
-//    delete rootProject.buildDir
-//}
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
 
 configurations {
     ktlint
@@ -52,12 +52,12 @@ task ktlint(type: JavaExec, group: "verification") {
     // "--reporter=plain", "--reporter=checkstyle,output=${buildDir}/ktlint.xml"
     // see https://github.com/shyiko/ktlint#usage for more
 }
-check.dependsOn ktlint
+//check.dependsOn ktlint
 
-task ktlintFormat(type: JavaExec, group: "formatting") {
-    description = "Fix Kotlin code style deviations."
-    main = "com.github.shyiko.ktlint.Main"
-    classpath = configurations.ktlint
-//    args "-F", "src/**/*.kt"
-    args "-F", "app/src/**/*.kt"
-}
+//task ktlintFormat(type: JavaExec, group: "formatting") {
+//    description = "Fix Kotlin code style deviations."
+//    main = "com.github.shyiko.ktlint.Main"
+//    classpath = configurations.ktlint
+////    args "-F", "src/**/*.kt"
+//    args "-F", "app/src/**/*.kt"
+//}
