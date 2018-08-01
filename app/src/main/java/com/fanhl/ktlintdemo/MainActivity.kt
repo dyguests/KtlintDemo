@@ -14,4 +14,6 @@ class MainActivity : AppCompatActivity() {
     fun a(): Int {
         return 1
     }
+
+    ;
 }
