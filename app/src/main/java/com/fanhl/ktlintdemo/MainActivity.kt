@@ -99,8 +99,11 @@ val 这是KTLINT测试 =
     ///这里测试ktlint
     ///这里测试ktlint
     ///这里测试ktlint
-    ///这里测试ktlint
-    ///这里测试ktlint
+    ///这里测试ktlint*/
+
+    val  a      =1
+
+    /*//这里测试ktlint
     ///这里测试ktlint
      ///这里测试ktlint
     ///这里测试ktlint
