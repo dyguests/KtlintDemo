@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
 
     public val a_BBBBB =0x000
     ;
-
+  ;
     ///这里测试ktlint
     val a_AA=1
     ///这里测试ktlint
