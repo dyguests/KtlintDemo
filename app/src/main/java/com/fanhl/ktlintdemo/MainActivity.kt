@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 
     ;
 
-err=eerr
+//err=eerr
 
     public val a_BBBBB =0x000
     ;
