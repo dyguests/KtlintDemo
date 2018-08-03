@@ -16,4 +16,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     ;
+
+
+    public val a_BBBBB =0x000
+    ;
 }
