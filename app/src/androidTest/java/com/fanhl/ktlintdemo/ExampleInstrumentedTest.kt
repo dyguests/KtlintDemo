@@ -21,7 +21,6 @@ class ExampleInstrumentedTest {
         val appContext = InstrumentationRegistry.getTargetContext()
 
 
-
         assertEquals("com.fanhl.ktlintdemo", appContext.packageName)
 
 
