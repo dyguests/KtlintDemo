@@ -27,6 +27,7 @@ class MainActivity : AppCompatActivity() {
     val BCD=2
     ///这里测试ktlint
      val ______a=3
+      val ______b=3
     ///这里测试ktlint
 val TAB测试=4
     ///这里测试ktlint
@@ -87,12 +88,12 @@ val 这是KTLINT测试 =
     ///这里测试ktlint
     ///这里测试ktlint
     ///这里测试ktlint
+     ///这里测试ktlint
     ///这里测试ktlint
     ///这里测试ktlint
     ///这里测试ktlint
-    ///这里测试ktlint
-    ///这里测试ktlint
-    ///这里测试ktlint
+       ///这里测试ktlint
+  ///这里测试ktlint
     ///这里测试ktlint
     ///这里测试ktlint
     ///这里测试ktlint
